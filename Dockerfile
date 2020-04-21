@@ -5,3 +5,4 @@ RUN cd lib_cpp_h5_writer
 RUN git pull
 # Build core library and tomcat writer
 RUN cd lib && make deploy && cd ../tomcat && make 
+RUN echo "FINISH."
